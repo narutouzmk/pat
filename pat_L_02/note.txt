@@ -1,0 +1,7 @@
+1.map自定义排序需要写一个结构体排序方案,见pat049
+2.vector也可以通过下标访问
+3.vector没有count方法,只能int num = count(vec.begin(), vec.end(), target);
+  target就是vector中元素类型的那个要找的值
+  或者count_if(.., ..,bool comp);
+  comp是自己重写的比较函数
+  在<algorithm>中
